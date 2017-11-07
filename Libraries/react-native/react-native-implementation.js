@@ -101,6 +101,7 @@ const ReactNative = {
   get unstable_batchedUpdates() { return require('../Renderer/shims/ReactNative').unstable_batchedUpdates; },
   get Vibration() { return require('../Vibration/Vibration'); },
   get VibrationIOS() { return require('../Vibration/VibrationIOS'); },
+  get YellowBox() { return require('../ReactNative/YellowBox'); },
 
   // Plugins
   get DeviceEventEmitter() { return require('../EventEmitter/RCTDeviceEventEmitter'); },
